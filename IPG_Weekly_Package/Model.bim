@@ -5333,6 +5333,7 @@
             "source": {
               "type": "query",
               "query": [
+                "-- From IBI",
                 "select * from",
                 "ipg_lqdash_targets_mdm"
               ],
@@ -5342,7 +5343,8 @@
               {
                 "name": "QueryEditorSerialization",
                 "value": [
-                  "<?xml version=\"1.0\" encoding=\"UTF-16\"?><Gemini xmlns=\"QueryEditorSerialization\"><AnnotationContent><![CDATA[<RSQueryCommandText>select * from",
+                  "<?xml version=\"1.0\" encoding=\"UTF-16\"?><Gemini xmlns=\"QueryEditorSerialization\"><AnnotationContent><![CDATA[<RSQueryCommandText>-- From IBI",
+                  "select * from",
                   "ipg_lqdash_targets_mdm</RSQueryCommandText><RSQueryCommandType>Text</RSQueryCommandType><RSQueryDesignState></RSQueryDesignState>]]></AnnotationContent></Gemini>"
                 ]
               }
@@ -5353,6 +5355,7 @@
           {
             "name": "_TM_ExtProp_QueryDefinition",
             "value": [
+              "-- From IBI",
               "select * from",
               "ipg_lqdash_targets_mdm"
             ]
@@ -5364,7 +5367,8 @@
           {
             "name": "QueryEditorSerialization",
             "value": [
-              "<?xml version=\"1.0\" encoding=\"UTF-16\"?><Gemini xmlns=\"QueryEditorSerialization\"><AnnotationContent><![CDATA[<RSQueryCommandText>select * from",
+              "<?xml version=\"1.0\" encoding=\"UTF-16\"?><Gemini xmlns=\"QueryEditorSerialization\"><AnnotationContent><![CDATA[<RSQueryCommandText>-- From IBI",
+              "select * from",
               "ipg_lqdash_targets_mdm</RSQueryCommandText><RSQueryCommandType>Text</RSQueryCommandType><RSQueryDesignState></RSQueryDesignState>]]></AnnotationContent></Gemini>"
             ]
           }
