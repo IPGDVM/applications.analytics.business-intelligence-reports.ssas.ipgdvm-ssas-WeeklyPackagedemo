@@ -537,6 +537,7 @@
             "source": {
               "type": "query",
               "query": [
+                "/*testing makarand*/",
                 "select distinct  'Yes' as [one_week_late], 1 as [is_one_week_late]",
                 "from [v_ipg_carbon_milestone]",
                 "union ",
@@ -549,7 +550,8 @@
               {
                 "name": "QueryEditorSerialization",
                 "value": [
-                  "<?xml version=\"1.0\" encoding=\"UTF-16\"?><Gemini xmlns=\"QueryEditorSerialization\"><AnnotationContent><![CDATA[<RSQueryCommandText>select distinct  'Yes' as [one_week_late], 1 as [is_one_week_late]",
+                  "<?xml version=\"1.0\" encoding=\"UTF-16\"?><Gemini xmlns=\"QueryEditorSerialization\"><AnnotationContent><![CDATA[<RSQueryCommandText>/*testing makarand*/",
+                  "select distinct  'Yes' as [one_week_late], 1 as [is_one_week_late]",
                   "from [v_ipg_carbon_milestone]",
                   "union ",
                   "select distinct 'No', 0 ",
@@ -563,6 +565,7 @@
           {
             "name": "_TM_ExtProp_QueryDefinition",
             "value": [
+              "/*testing makarand*/",
               "select distinct  'Yes' as [one_week_late], 1 as [is_one_week_late]",
               "from [v_ipg_carbon_milestone]",
               "union ",
@@ -577,7 +580,8 @@
           {
             "name": "QueryEditorSerialization",
             "value": [
-              "<?xml version=\"1.0\" encoding=\"UTF-16\"?><Gemini xmlns=\"QueryEditorSerialization\"><AnnotationContent><![CDATA[<RSQueryCommandText>select distinct  'Yes' as [one_week_late], 1 as [is_one_week_late]",
+              "<?xml version=\"1.0\" encoding=\"UTF-16\"?><Gemini xmlns=\"QueryEditorSerialization\"><AnnotationContent><![CDATA[<RSQueryCommandText>/*testing makarand*/",
+              "select distinct  'Yes' as [one_week_late], 1 as [is_one_week_late]",
               "from [v_ipg_carbon_milestone]",
               "union ",
               "select distinct 'No', 0 ",
@@ -5553,7 +5557,7 @@
         "modelPermission": "administrator",
         "members": [
           {
-            "memberName": "AMR\\ssas_msbitabmd",
+            "memberName": "AMR\\SSAS_MSBITABMD",
             "memberId": "S-1-5-21-725345543-602162358-527237240-2406644"
           }
         ]
