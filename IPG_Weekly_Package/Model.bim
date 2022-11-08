@@ -537,7 +537,8 @@
             "source": {
               "type": "query",
               "query": [
-                "/*testing makarand*/",
+                "/*testing makarand*/ ",
+                "/*Tina testing*/",
                 "select distinct  'Yes' as [one_week_late], 1 as [is_one_week_late]",
                 "from [v_ipg_carbon_milestone]",
                 "union ",
@@ -550,7 +551,8 @@
               {
                 "name": "QueryEditorSerialization",
                 "value": [
-                  "<?xml version=\"1.0\" encoding=\"UTF-16\"?><Gemini xmlns=\"QueryEditorSerialization\"><AnnotationContent><![CDATA[<RSQueryCommandText>/*testing makarand*/",
+                  "<?xml version=\"1.0\" encoding=\"UTF-16\"?><Gemini xmlns=\"QueryEditorSerialization\"><AnnotationContent><![CDATA[<RSQueryCommandText>/*testing makarand*/ ",
+                  "/*Tina testing*/",
                   "select distinct  'Yes' as [one_week_late], 1 as [is_one_week_late]",
                   "from [v_ipg_carbon_milestone]",
                   "union ",
@@ -565,7 +567,8 @@
           {
             "name": "_TM_ExtProp_QueryDefinition",
             "value": [
-              "/*testing makarand*/",
+              "/*testing makarand*/ ",
+              "/*Tina testing*/",
               "select distinct  'Yes' as [one_week_late], 1 as [is_one_week_late]",
               "from [v_ipg_carbon_milestone]",
               "union ",
@@ -580,7 +583,8 @@
           {
             "name": "QueryEditorSerialization",
             "value": [
-              "<?xml version=\"1.0\" encoding=\"UTF-16\"?><Gemini xmlns=\"QueryEditorSerialization\"><AnnotationContent><![CDATA[<RSQueryCommandText>/*testing makarand*/",
+              "<?xml version=\"1.0\" encoding=\"UTF-16\"?><Gemini xmlns=\"QueryEditorSerialization\"><AnnotationContent><![CDATA[<RSQueryCommandText>/*testing makarand*/ ",
+              "/*Tina testing*/",
               "select distinct  'Yes' as [one_week_late], 1 as [is_one_week_late]",
               "from [v_ipg_carbon_milestone]",
               "union ",
@@ -1707,6 +1711,7 @@
             "type": "calculated",
             "name": "IndicatorId_int",
             "dataType": "int64",
+            "isDataTypeInferred": false,
             "expression": "VALUE([IndicatorId])"
           },
           {
@@ -5132,6 +5137,7 @@
             "type": "calculated",
             "name": "Configuration_Id",
             "dataType": "int64",
+            "isDataTypeInferred": false,
             "expression": "If(ISBLANK(related(LQ_Carbon_MAP[carbon_config_id])),\"0\",related(LQ_Carbon_MAP[carbon_config_id]))",
             "formatString": "0"
           },
@@ -5557,7 +5563,7 @@
         "modelPermission": "administrator",
         "members": [
           {
-            "memberName": "AMR\\SSAS_MSBITABMD",
+            "memberName": "AMR\\ssas_msbitabmd",
             "memberId": "S-1-5-21-725345543-602162358-527237240-2406644"
           }
         ]
